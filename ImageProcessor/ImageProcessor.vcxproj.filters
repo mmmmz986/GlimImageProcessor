@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ImageBuffer.cpp" />
+    <ClCompile Include="BmpParser.cpp" />
+    <ClCompile Include="CommandLineParser.cpp" />
+    <ClCompile Include="GrayscaleFilter.cpp">
+      <Filter>Helper\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Helper\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessFilter.cpp">
+      <Filter>Helper\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdFilter.cpp">
+      <Filter>Helper\Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="ImageBuffer.h" />
+    <ClInclude Include="BmpParser.h" />
+    <ClInclude Include="CommandLineParser.h" />
+    <ClInclude Include="GrayscaleFilter.h">
+      <Filter>Helper\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterBase.h">
+      <Filter>Helper\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Helper\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightnessFilter.h">
+      <Filter>Helper\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Helper\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdFilter.h">
+      <Filter>Helper\Filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{2ff4c8f9-36e1-46a1-91af-0679505bf4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Filter">
+      <UniqueIdentifier>{adf3cf5d-1c1d-4fc9-9525-f0184eb50b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Log">
+      <UniqueIdentifier>{447631fb-8083-4a74-bdc7-8d380784bde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Common">
+      <UniqueIdentifier>{0174c11e-6e24-4a67-b936-89ccd1c00df7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
