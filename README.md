@@ -21,7 +21,7 @@
 
 ```powershell
 # Threshold
-.\x64\Release\ImageProcessor.exe --input .\Resource\3_chelsea_cat.bmp --output .\Result\3_chelsea_cat_Threshold.bmp --filter threshold:100
+.\x64\Release\ImageProcessor.exe --input .\Resource\3_chelsea_cat.bmp --output .\Result\3_chelsea_cat_threshold.bmp --filter threshold:100
 ```
 
 ```powershell
